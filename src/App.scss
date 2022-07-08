@@ -1,0 +1,58 @@
+.nav-bar-container {
+  display: flex;
+  justify-content: center;
+  background: #6328a5;
+  height: 8rem;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    max-width: 110rem;
+    padding: 0.5rem 0;
+    color: #fff;
+  h1 {
+    font-size: 3.4rem;
+    font-weight: bold;
+  }
+
+  .nav-bar-menu-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .search-bar-label {
+      font-size: 2rem;
+    }
+
+    > input[type="text"] {
+      height: 3.8rem;
+      width: 23rem;
+      margin-right: 2.5rem;
+      border-radius: 0.5rem;
+      border: 0;
+      padding: 0 0 0 1rem;
+      font-size: 1.8rem;
+    }
+
+    > button {
+      height: 4rem;
+      width: 15rem;
+      font-size: 1.8rem;
+      border-radius: 0.5rem;
+      border: 1px solid #fff;
+      background-color: #6328a5;
+      color: #fff;
+      padding: 0;
+      cursor: pointer;
+    }
+
+    > button:hover {
+      background-color: #fff;
+      color: #6328a5;
+    }
+  }
+
+}
